@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us{% endblock title %}
+
+{% block body %}
+
+<style>
+    body {
+        background-color: #f0f4f8; /* soft light blue background for a calming effect */
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+    .about-container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        color: #0056b3;
+    }
+    p {
+        line-height: 1.6;
+    }
+</style>
+
+<div class="about-container">
+    <h1>About Us</h1>
+    
+    <p>Welcome to our telemedicine platform! We aim to connect patients and healthcare providers through an accessible and reliable digital healthcare solution. Our platform allows patients to find and consult specialists easily, whether they’re looking for local options or exploring specialty care remotely.</p>
+    
+    <p>Through real-time chat, appointment scheduling, and location-based provider searches, we strive to enhance the convenience and quality of healthcare. Our focus on privacy, security, and ease of use ensures that users can manage their healthcare confidently and safely.</p>
+    
+    <p>Our services support rural communities, elderly patients, and those with chronic conditions by reducing the need for travel and providing a streamlined experience for managing ongoing care. We are dedicated to bridging healthcare gaps and delivering innovative solutions for a healthier future.</p>
+</div>
+
+{% endblock body %}
